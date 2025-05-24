@@ -10,10 +10,6 @@ model_Tree, model_Knn, model_NN, variables, min_max_scaler = pickle.load(open('m
 st.set_page_config(page_title="Predicción Compra Videojuegos", layout="centered")
 # Título principal
 st.title("🎮 Predicción Compra video juegos en tienda")
-# Imagen de portada
-imagen = Image.open("IMAGEN.jpg")  # Asegúrate de que esta imagen esté en la misma carpeta que app.py
-st.image(imagen, caption="🎮", use_container_width=True)
-
 
 # --- Formulario de entrada ---
 with st.form("formulario_prediccion"):
